@@ -1,0 +1,49 @@
+/* base.css */
+
+/* Стилизация основного контента */
+#content {
+    margin: 50px auto; /* Размещение по центру */
+    max-width: 400px; /* Максимальная ширина формы */
+    padding: 20px;
+}
+
+/* Стилизация заголовка */
+h1 {
+    color: #333;
+    text-align: center; /* Выравнивание по центру */
+    margin-bottom: 20px; /* Отступ снизу */
+}
+
+/* Стилизация формы */
+form {
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc; /* Добавляем обводку */
+    border-radius: 4px; /* Закругляем углы */
+}
+
+/* Стилизация текстового поля */
+input[type="text"], input[type="password"] {
+    width: calc(100% - 22px); /* 22px - учитывая паддинг */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Стилизация кнопки */
+input[type="submit"] {
+    display: block; /* Делаем кнопку блочным элементом */
+    margin: 0 auto; /* Устанавливаем автоматичесные отступы по горизонтали для центрирования */
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
